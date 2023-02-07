@@ -71,12 +71,115 @@ header{
 }
 .button{
     color: white;
+    font-size: 18px;
     font-weight: 700;
     background-color: #3882F6;
     border-radius: 8px;
-    width: 60px;
-    padding: 10px 30px;
+    width: 120px;
+    padding: 10px; 
+    border:#3882F6 ;  
+}
+/* ~~~~~~~~~~~~~~~~~~~~ Mid-Upper ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.mid-upper{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px;
+height: 500px;
+}
+.mid-upper-header{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+.mid-upper-illustrations{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+}
+#box{
+    border: #3882F6 5px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.mid-upper-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: min-content;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mid-Lower ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.mid-lower{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: auto ;
+    height: 400px;
    
+}
+.mid-lower-quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 43%;
+}
+.mid-lower-quote p{
+    margin-bottom: 0;
+}
+.mid-lower-author{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-weight:700;
+}
+.mid-lower-author p{
+    margin-top: 0 ;
+    font-size: 24px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Lower ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.low{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lower{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 8px;
+    align-items: center;
+    padding: 50px;
+    width: 60%;
     
 }
 
+#but{
+    border: white 2px solid;
+    
+    
+}
+.lower-content-title{
+    color: #F9FAF8;
+    
+    font-weight: 700;
+    margin: 1px;
+    font-size: 24px;
+}
+.lower-content-body{
+    color: #F9FAF8;
+    margin: 0;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+footer{
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
